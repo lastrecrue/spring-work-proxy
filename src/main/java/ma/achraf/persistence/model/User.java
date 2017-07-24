@@ -18,7 +18,7 @@ public class User {
 	}
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.TABLE)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;
 
 	@Column
